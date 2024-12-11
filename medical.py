@@ -118,8 +118,8 @@ def extract_text_from_pdf(uploaded_pdf):
     return pdf_text
 
 # Streamlit app configuration
-st.set_page_config(page_title="Health-Plus", layout="centered")
-st.title("Health-Plus")
+st.set_page_config(page_title="Balance-Plus", layout="centered")
+st.title("Balance-Plus")
 st.write("Upload medical images, PDFs, or enter text queries for accurate medical analysis.")
 
 # Input sections
